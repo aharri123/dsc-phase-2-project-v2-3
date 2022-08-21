@@ -80,6 +80,16 @@ Our data has quite a lot of variables, so let's see if we can eliminate some of 
 * sqft_above (don't need this when we have total square footage)
 * sqft_basement (not in heatmap, but sqft of basement is already included in sqft_living)
 * sqft_living15 (we are not concerned about other neighbor's properties)
+
+Our data now looks like this: 
+
+![house_data](https://user-images.githubusercontent.com/45251340/185805664-a7766cd5-0a84-48fd-bf66-3775be9c00a9.JPG)
+
+We can see there are some categorical variables, so after coverting to numeric variables, our data finally looks like this: 
+
+![house_data](https://user-images.githubusercontent.com/45251340/185805982-ccb74ec1-5b6d-40f3-b740-aa1c0eab4f7d.JPG)
+
+
 ### GitHub Repository
 
 Recall that the GitHub repository is the cloud-hosted directory containing all of your project files as well as their version history.
