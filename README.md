@@ -89,7 +89,7 @@ Our data now looks like this:
 
 ![house_data](https://user-images.githubusercontent.com/45251340/185805982-ccb74ec1-5b6d-40f3-b740-aa1c0eab4f7d.JPG)
 
-We then run our second model
+### We then run our second model
 
 ![initial_model](https://user-images.githubusercontent.com/45251340/185806125-ee25180a-6670-4568-9bd4-bec13744f72e.JPG)
 
