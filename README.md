@@ -179,4 +179,14 @@ From our final data we can see that:
 
 ## Interpreting the results
 
+First off, we can see that our base house price is about $20.46. Then from there, we can look at the coefficients. Because we log transformed our target variable price, our variable coefficients (apart from sqft_living) can be represented as percentage changes of price for each unit increase. The sqft_living coefficient will be interpreted as a percentage change in price for each percentage change in sqft_living. By using math and applying it to each coefficient, we can get the following interpretations:
 
+* For each additional bedroom added our price will go down by about 3.5%
+* For each additional bathroom addded, our house price will go up by about 9.6%
+* For each 1% increase in sqft_living, the price will increase by 39%
+* For each additional floor added, the price will increase by about 8%
+* If a house DOES have a waterfront view, we can expect the price to increase by about 72.3% as compared to if it does not
+* For each increase in condition value ranking, the house price will increase by about 1.5%
+* For each increase in grade value ranking, the house price will increase by about 26.2%
+* For each year newer the house is, the price will decrease by about .63%
+* 
