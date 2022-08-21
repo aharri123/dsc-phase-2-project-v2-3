@@ -177,19 +177,6 @@ From our final data we can see that:
 
 ![image](https://user-images.githubusercontent.com/45251340/185808127-60af8ebf-e7f0-460a-9b33-7ddcb9b69a94.png)
 
-### GitHub Repository
-
-Recall that the GitHub repository is the cloud-hosted directory containing all of your project files as well as their version history.
-
-The requirements are the same as in [Phase 1](https://github.com/learn-co-curriculum/dsc-phase-1-project-v2-3#github-repository), except for the required sections in the `README.md`.
-
-For this project, the `README.md` file should contain:
-
-* Overview
-* Business and Data Understanding
-  * Explain your stakeholder audience here
-* **Modeling**
-* **Regression Results**
-* Conclusion
+## Interpreting the results
 
 
