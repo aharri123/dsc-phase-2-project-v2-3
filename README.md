@@ -120,6 +120,7 @@ From testing our assumptions we can see:
 * Our residuals form a cone shape which indicates heteroscedasticity
 * Multicollinearity (above .70) is not a major issue for our data
 
+#### Let's see if we can adjust our model to fix any of the assumptions
 
 ### GitHub Repository
 
