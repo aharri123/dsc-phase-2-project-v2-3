@@ -189,4 +189,12 @@ First off, we can see that our base house price is about $20.46. Then from there
 * For each increase in condition value ranking, the house price will increase by about 1.5%
 * For each increase in grade value ranking, the house price will increase by about 26.2%
 * For each year newer the house is, the price will decrease by about .63%
-* 
+
+## Conclusion
+Our goal for this project was to use previous King County housing data from 2014-2015 to identify which features would best increase the value of a house in order for it to be sold (Keeping in mind the person selling the house would need to be able to renovate these features). After identifying these features, we will then present our data to the Real Estate agency, so that they may communicate to their customers which features would be most advantageous to renovate.
+
+Since the customer selling the house needs to be able to renovate the features chosen, we can rule out some of the features. The yr_built and waterfront variables can be eliminated, since one cannot change the year that the house was built, and a waterfront cannot be simply built. A similar situation with the floor variable occurs, where it would not be worthwhile to add an entire new floor level for the price to only go up by about 8%. Without adding or changing anything else, an increase in bedrooms would actually bring down the price by about 3.5%. Finally, there's the issue of the condition variable. Increasing the condition ranking of the house will only increase the price by about 1.5%. Therefore the variables that should be picked are number of bathrooms, living square footage, and grade of the house.
+
+Increasing the number of bathrooms , while also increasing the total square footage would be beneficial, since each increase brings its own price percentage increase. Increasing the grade rating of a house goes hand in hand with the other two features, since the grade rating is based on construction quality of renovations made to the house. A higher rating is associated with more square footage, as well as higher quality bathroom fixtures. Other improvements to the house can be made such as increasing the quality of the woodwork and adding more luxurious materials such as marble.
+
+ 
