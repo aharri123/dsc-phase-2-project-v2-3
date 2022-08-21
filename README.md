@@ -173,6 +173,8 @@ From our final data we can see that:
 * Our R-squared score has improved slightly by .002
 * Our assumption plots have not drastically changed
 
+
+
 **Our final intercept and coefficients are:** 
 
 ![image](https://user-images.githubusercontent.com/45251340/185808127-60af8ebf-e7f0-460a-9b33-7ddcb9b69a94.png)
