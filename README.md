@@ -22,7 +22,14 @@ We'll start modeling by choosing the feature that is most correlated with our ta
 
 ![heatmap_data](https://user-images.githubusercontent.com/45251340/185804144-87bd9dd6-454c-4509-b5ed-3eb30eb2323e.JPG)
 
-From this heatmap, we can see that the variable most strongly correlated is sqft_living. Let's start creating our regression formula using price and sqft_living.
+From this heatmap, we can see that the variable most strongly correlated is sqft_living. Let's create our regression formula using price and sqft_living.
+
+![initial_model](https://user-images.githubusercontent.com/45251340/185804430-5c60d18f-50c0-46fb-bc3d-712c187fc4ff.JPG)
+
+After running our model, we get the following summary: 
+
+![initial_model_results](https://user-images.githubusercontent.com/45251340/185804471-7b7b01eb-731e-40e1-8856-4fda0c8df338.JPG)
+
 
 ### GitHub Repository
 
