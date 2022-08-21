@@ -61,6 +61,25 @@ Since our R-squared is low and our regression assumptions are not met, we can sa
 
 ## Second Model
 
+Our data has quite a lot of variables, so let's see if we can eliminate some of them based on correlation strengths and worldly logic. Let's consult our heatmap again: 
+
+![heatmap_data](https://user-images.githubusercontent.com/45251340/185805578-9c7bc55b-8a41-4c5f-bef5-e182be424317.JPG)
+
+
+### Looking at the heatmap correlation strengths, we can eliminate some low correlation variables:
+* id (also a unique identifier which will not help us in the future for predictions)
+* sqft_lot
+* yr_renovated
+* zipcode
+* long
+* lat (If we don't need longitude, it doesn't make sense to only put latitude)
+* sqft_lot15 (We are not concerned about other neighbor's properties)
+
+### We can eliminate some other variables as well:
+* date (not in heatmap, but we're worried about the future and not the past)
+* sqft_above (don't need this when we have total square footage)
+* sqft_basement (not in heatmap, but sqft of basement is already included in sqft_living)
+* sqft_living15 (we are not concerned about other neighbor's properties)
 ### GitHub Repository
 
 Recall that the GitHub repository is the cloud-hosted directory containing all of your project files as well as their version history.
