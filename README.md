@@ -122,6 +122,8 @@ From testing our assumptions we can see:
 
 #### Let's see if we can adjust our model to fix any of the assumptions
 
+## Third Model
+
 ### GitHub Repository
 
 Recall that the GitHub repository is the cloud-hosted directory containing all of your project files as well as their version history.
