@@ -112,6 +112,15 @@ Our data now looks like this:
 
 ![heatmap_data](https://user-images.githubusercontent.com/45251340/185806376-8985fc73-e6a8-4a01-8fff-9207f614848e.JPG)
 
+
+From testing our assumptions we can see:
+
+* We have quite a few outliers, which disrupts the linear assumption
+* The model residuals do not follow a full normal distribution
+* Our residuals form a cone shape which indicates heteroscedasticity
+* Multicollinearity (above .70) is not a major issue for our data
+
+
 ### GitHub Repository
 
 Recall that the GitHub repository is the cloud-hosted directory containing all of your project files as well as their version history.
