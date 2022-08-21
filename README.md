@@ -30,6 +30,23 @@ After running our model, we get the following summary:
 
 ![initial_model_results](https://user-images.githubusercontent.com/45251340/185804471-7b7b01eb-731e-40e1-8856-4fda0c8df338.JPG)
 
+Our R-squared value is somewhat low at 49%, so let's check some assumptions
+
+#### Linearity
+We'll plot the relationship between price and sqft_living to see if it follows a linear pattern
+
+![assumption1](https://user-images.githubusercontent.com/45251340/185805249-b6c491af-2f34-4229-9095-064f0f7a876b.JPG)
+
+#### Normality
+We'll plot the residuals against a standard normal distribution 
+
+![assumption2](https://user-images.githubusercontent.com/45251340/185805283-6e947fcf-d804-4a63-b426-ac300026df4a.JPG)
+
+#### Homoscedasticity
+
+We'll see if the regression plots resemble a cone shape
+
+![assumption3](https://user-images.githubusercontent.com/45251340/185805350-8c9a9777-8bdf-4663-ba7c-9f46b85bde97.JPG)
 
 ### GitHub Repository
 
