@@ -48,6 +48,14 @@ We'll see if the regression plots resemble a cone shape
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/185805350-8c9a9777-8bdf-4663-ba7c-9f46b85bde97.JPG)
 
+
+From testing our assumptions we can see:
+
+* Our R-squared value is somewhat low at 49%
+* There is only a slight linear relationship between price and sqft_living
+* The model residuals do not follow a full normal distribution
+* For our regression plots for sqft_living, we see a cone shape which indicates heteroscedasticity
+
 ### GitHub Repository
 
 Recall that the GitHub repository is the cloud-hosted directory containing all of your project files as well as their version history.
