@@ -54,7 +54,7 @@ From testing our assumptions we can see:
 * Our R-squared value is somewhat low at 49%
 * There is only a slight linear relationship between price and sqft_living
 * The model residuals do not follow a full normal distribution
-* For our regression plots for sqft_living, we see a cone shape which indicates heteroscedasticity\
+* For our regression plots for sqft_living, we see a cone shape which indicates heteroscedasticity
 
 Since our R-squared is low and our regression assumptions are not met, we can say that sqft_living is not ideal for soley modeling a relationship with price. We will need to take a look at additional variables and build a better model. To do this requires multilinear regression.
 
@@ -85,7 +85,7 @@ Our data now looks like this:
 
 ![house_data](https://user-images.githubusercontent.com/45251340/185805664-a7766cd5-0a84-48fd-bf66-3775be9c00a9.JPG)
 
-We can see there are some categorical variables, so after coverting to numeric variables, our data finally looks like this: 
+**We can see there are some categorical variables, so after coverting to numeric variables, our data finally looks like this: **
 
 ![house_data](https://user-images.githubusercontent.com/45251340/185805982-ccb74ec1-5b6d-40f3-b740-aa1c0eab4f7d.JPG)
 
