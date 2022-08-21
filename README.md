@@ -139,6 +139,15 @@ To see if we can improve our model, we'll log transform the price variable and s
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/185806973-4ba2b581-098f-440c-b526-f5af0a868230.JPG)
 
+
+After log transforming our price variable we can see that:
+
+* Our linearity assumption has drastically improved
+* The model residuals now follow a normal distribution
+* Our residuals now form a more homoscedastic pattern
+* Multicollinearity (above .70) is not a major issue for our data
+
+
 ### GitHub Repository
 
 Recall that the GitHub repository is the cloud-hosted directory containing all of your project files as well as their version history.
