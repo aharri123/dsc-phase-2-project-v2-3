@@ -147,7 +147,7 @@ After log transforming our price variable we can see that:
 * Our residuals now form a more homoscedastic pattern
 * Multicollinearity (above .70) is not a major issue for our data
 
-#### Lastly, we'll log transform the sqft_living variable and see what final changes are made to the model.
+### Lastly, we'll log transform the sqft_living variable and see what final changes are made to the model.
 
 After log transforming sqft_living:
 
