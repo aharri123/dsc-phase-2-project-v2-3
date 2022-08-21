@@ -147,6 +147,31 @@ After log transforming our price variable we can see that:
 * Our residuals now form a more homoscedastic pattern
 * Multicollinearity (above .70) is not a major issue for our data
 
+#### Lastly, we'll log transform the sqft_living variable and see what final changes are made to the model.
+
+After log transforming sqft_living:
+
+![third_model_results](https://user-images.githubusercontent.com/45251340/185807855-547483ca-bab0-40e6-abc4-3fe6b8f444ca.JPG)
+
+### Linearity
+
+![assumption1](https://user-images.githubusercontent.com/45251340/185807943-d6e7b7a0-4f9f-46f3-9a59-fb12a85470ef.JPG)
+
+
+### Normality
+
+![assumption2](https://user-images.githubusercontent.com/45251340/185807948-3f9bdf1c-3e02-40be-a45d-3c7bafa7c1a0.JPG)
+
+
+### Homoscedasticity
+
+![assumption3](https://user-images.githubusercontent.com/45251340/185807957-3fc4f02c-15b6-40d8-9e2f-49b1dd5a2f22.JPG)
+
+### Results
+From our final data we can see that:
+* All our independent variable p values are less than 0.05, indicating the relationships between those variables and the target variable price are statistically significant.
+* Our R-squared score has improved slightly by .002
+* Our assumption plots have not drastically changed
 
 ### GitHub Repository
 
