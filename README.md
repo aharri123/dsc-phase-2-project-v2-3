@@ -123,6 +123,21 @@ From testing our assumptions we can see:
 #### Let's see if we can adjust our model to fix any of the assumptions
 
 ## Third Model
+To see if we can improve our model, we'll log transform the price variable and see what happens. After log transforming and building our model these are our results and assumptions:
+
+![third_model_results](https://user-images.githubusercontent.com/45251340/185806899-24711dfd-af4c-40e2-a7a5-3c83780fec7b.JPG)
+
+### Linearity
+
+![assumption1](https://user-images.githubusercontent.com/45251340/185806959-85337a01-2fef-4c61-ba7f-1345b45eb81c.JPG)
+
+### Normality
+
+![assumption2](https://user-images.githubusercontent.com/45251340/185806963-b07b27d4-3cfd-4132-aef9-cf06619608d8.JPG)
+
+### Homoscedasticity
+
+![assumption3](https://user-images.githubusercontent.com/45251340/185806973-4ba2b581-098f-440c-b526-f5af0a868230.JPG)
 
 ### GitHub Repository
 
