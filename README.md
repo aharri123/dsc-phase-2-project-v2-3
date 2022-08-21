@@ -108,6 +108,9 @@ Our data now looks like this:
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/185806322-b9a48b10-f00b-4b5d-8841-2b0d9be08cc8.JPG)
 
+### Let's check for multicollinearity
+
+![heatmap_data](https://user-images.githubusercontent.com/45251340/185806376-8985fc73-e6a8-4a01-8fff-9207f614848e.JPG)
 
 ### GitHub Repository
 
