@@ -95,6 +95,19 @@ Our data now looks like this:
 
 ![second_model_results](https://user-images.githubusercontent.com/45251340/185806168-c242d1a9-333d-4f31-8b74-b5020bf77cf3.JPG)
 
+**Let's check our assumptions again**
+### Linearity 
+
+![assumption1](https://user-images.githubusercontent.com/45251340/185806299-dd537b70-7f5e-44a9-9117-256708c91f33.JPG)
+
+### Normality
+
+![assumption2](https://user-images.githubusercontent.com/45251340/185806311-cf818dad-2efc-42b8-b450-779553adb131.JPG)
+
+### Homoscedasticity
+
+![assumption3](https://user-images.githubusercontent.com/45251340/185806322-b9a48b10-f00b-4b5d-8841-2b0d9be08cc8.JPG)
+
 
 ### GitHub Repository
 
