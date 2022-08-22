@@ -149,7 +149,7 @@ After log transforming our price variable we can see that:
 
 ### We make some other modifications
 
-#### Such as logtransforming sqft_living
+### Such as logtransforming sqft_living
 
 After log transforming sqft_living:
 
