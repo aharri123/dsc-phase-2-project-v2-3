@@ -149,7 +149,7 @@ After log transforming our price variable we can see that:
 
 ### We make some other modifications
 
-#### Such as logtransforming sqft_living
+### Such as logtransforming sqft_living
 
 After log transforming sqft_living:
 
@@ -169,14 +169,13 @@ After log transforming sqft_living:
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/185807957-3fc4f02c-15b6-40d8-9e2f-49b1dd5a2f22.JPG)
 
-
-After this, we also experiment with dropping the waterfront and yr_built columns (not shown here) 
-
-### Results
-From our final data we can see that:
+From our data we can see that:
 * All our independent variable p values are less than 0.05, indicating the relationships between those variables and the target variable price are statistically significant.
 * Our R-squared score has improved slightly by .002
 * Our assumption plots have not drastically changed
+
+After this, we also experiment with dropping the waterfront and yr_built columns (not shown here) 
+
 
 
 **Our final intercept and coefficients are:** 
