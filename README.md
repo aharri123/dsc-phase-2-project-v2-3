@@ -147,7 +147,9 @@ After log transforming our price variable we can see that:
 * Our residuals now form a more homoscedastic pattern
 * Multicollinearity (above .70) is not a major issue for our data
 
-### Lastly, we'll log transform the sqft_living variable and see what final changes are made to the model.
+### We make some other modifications
+
+#### Such as logtransforming sqft_living
 
 After log transforming sqft_living:
 
@@ -166,6 +168,9 @@ After log transforming sqft_living:
 ### Homoscedasticity
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/185807957-3fc4f02c-15b6-40d8-9e2f-49b1dd5a2f22.JPG)
+
+
+After this, we also experiment with dropping the waterfront and yr_built columns (not shown here) 
 
 ### Results
 From our final data we can see that:
