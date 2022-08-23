@@ -224,6 +224,23 @@ From our data we can see that:
 ![waterfont 3](https://user-images.githubusercontent.com/45251340/186256585-728bb5bc-5b80-4c33-8689-e07b3a101fe6.JPG)
 
 
+### Removing waterfront variable without log transforming sqft_living ###
+
+![non_waterfront results](https://user-images.githubusercontent.com/45251340/186281567-e3949d8c-819d-4c12-80fd-a7df92d64edc.JPG)
+
+#### Linearity ####
+
+![non_waterfront 1](https://user-images.githubusercontent.com/45251340/186281584-097ded9a-6304-49d8-b577-ba12e6d8535e.JPG)
+
+#### Normality ####
+
+![non_waterfront 2](https://user-images.githubusercontent.com/45251340/186281596-22f6992c-9847-4d80-a6d1-d6e76e501ad2.JPG)
+
+#### Homoscedasticity ####
+
+![non_waterfront 3](https://user-images.githubusercontent.com/45251340/186281609-d0722ca6-a5d0-43ce-9c73-d92867d057f8.JPG)
+
+
 ### Removing both ###
 
 ![both results](https://user-images.githubusercontent.com/45251340/186257016-5c0bfc09-7cd3-46d8-968d-baa8c56a2496.JPG)
