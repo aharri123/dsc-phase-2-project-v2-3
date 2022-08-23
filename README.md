@@ -172,7 +172,7 @@ From our data we can see that:
 
 ### We also experiment with dropping the waterfront and yr_built columns ###
 
-**Removing yr_built variable**
+### Removing yr_built variable ###
 
 ![third_model_results](https://user-images.githubusercontent.com/45251340/186254504-56b4ecdc-8fd1-4af4-9641-477bad526c3c.JPG)
 
@@ -189,7 +189,7 @@ From our data we can see that:
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/186254956-ee0c07ec-171a-44c0-8a2d-63604bd825ac.JPG)
 
-**Removing waterfront variable**
+### Removing waterfront variable ###
 
 ![waterfront results](https://user-images.githubusercontent.com/45251340/186256334-9f9a7d67-9cc1-46c6-a20f-7156dae93684.JPG)
 
