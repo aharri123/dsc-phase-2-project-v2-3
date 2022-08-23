@@ -139,7 +139,7 @@ To see if we can improve our model, we'll log transform the price variable and s
 After log transforming our price variable we can see that:
 
 * Our linearity assumption has drastically improved
-* The model residuals now follow a normal distribution
+* The model residuals now follow a more normal distribution
 * Our residuals now form a more homoscedastic pattern
 * Multicollinearity (above .70) is not a major issue for our data
 
