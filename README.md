@@ -189,6 +189,24 @@ From our data we can see that:
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/186254956-ee0c07ec-171a-44c0-8a2d-63604bd825ac.JPG)
 
+**Removing waterfront variable**
+
+![waterfront results](https://user-images.githubusercontent.com/45251340/186256334-9f9a7d67-9cc1-46c6-a20f-7156dae93684.JPG)
+
+### Linearity
+
+![waterfont 1](https://user-images.githubusercontent.com/45251340/186256555-3e9767d3-225d-46a7-a5b6-1073591d976b.JPG)
+
+
+### Normality
+
+![waterfont 2](https://user-images.githubusercontent.com/45251340/186256567-40a55e9e-62f7-4c4e-86f8-1d7e116e9f1e.JPG)
+
+
+### Homoscedasticity
+
+![waterfont 3](https://user-images.githubusercontent.com/45251340/186256585-728bb5bc-5b80-4c33-8689-e07b3a101fe6.JPG)
+
 
 **Our final intercept and coefficients are:** 
 
