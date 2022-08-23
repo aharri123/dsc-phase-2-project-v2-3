@@ -170,7 +170,7 @@ From our data we can see that:
 * Our R-squared score has improved slightly by .002
 * Our assumption plots have worsened
 
-### We also experiment with dropping the waterfront and yr_built columns ###
+## We also experiment with dropping the waterfront and yr_built columns ###
 
 ### Removing yr_built variable ###
 
