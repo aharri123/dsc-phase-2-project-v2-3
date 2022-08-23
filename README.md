@@ -135,6 +135,9 @@ To see if we can improve our model, we'll log transform the price variable and s
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/185806973-4ba2b581-098f-440c-b526-f5af0a868230.JPG)
 
+### Multicollinearity
+
+![heatmap_data](https://user-images.githubusercontent.com/45251340/186245252-b9a118ef-6a87-4dfe-a674-16363c2e4f23.JPG)
 
 After log transforming our price variable we can see that:
 
