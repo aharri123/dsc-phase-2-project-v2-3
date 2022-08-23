@@ -168,7 +168,7 @@ After log transforming sqft_living:
 From our data we can see that:
 * All our independent variable p values are less than 0.05, indicating the relationships between those variables and the target variable price are statistically significant.
 * Our R-squared score has improved slightly by .002
-* Our assumption plots have not drastically changed
+* Our assumption plots have worsened
 
 ### We also experiment with dropping the waterfront and yr_built columns ###
 
