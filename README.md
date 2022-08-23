@@ -193,19 +193,36 @@ From our data we can see that:
 
 ![waterfront results](https://user-images.githubusercontent.com/45251340/186256334-9f9a7d67-9cc1-46c6-a20f-7156dae93684.JPG)
 
-### Linearity
+#### Linearity
 
 ![waterfont 1](https://user-images.githubusercontent.com/45251340/186256555-3e9767d3-225d-46a7-a5b6-1073591d976b.JPG)
 
 
-### Normality
+#### Normality
 
 ![waterfont 2](https://user-images.githubusercontent.com/45251340/186256567-40a55e9e-62f7-4c4e-86f8-1d7e116e9f1e.JPG)
 
 
-### Homoscedasticity
+#### Homoscedasticity
 
 ![waterfont 3](https://user-images.githubusercontent.com/45251340/186256585-728bb5bc-5b80-4c33-8689-e07b3a101fe6.JPG)
+
+
+### Removing both ###
+
+![both results](https://user-images.githubusercontent.com/45251340/186257016-5c0bfc09-7cd3-46d8-968d-baa8c56a2496.JPG)
+
+#### Linearity
+
+![both 1](https://user-images.githubusercontent.com/45251340/186257291-676ced9a-97e0-426c-81aa-7ab9d53a8475.JPG)
+
+#### Normality
+
+![both 2](https://user-images.githubusercontent.com/45251340/186257311-a66008e7-37b3-4ce7-8725-67753ba43e76.JPG)
+
+#### Homoscedasticity
+
+![both 3](https://user-images.githubusercontent.com/45251340/186257331-129c9b32-8d6e-4034-9300-a2cd3ed91901.JPG)
 
 
 **Our final intercept and coefficients are:** 
