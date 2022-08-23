@@ -257,6 +257,22 @@ From our data we can see that:
 
 ![both 3](https://user-images.githubusercontent.com/45251340/186257331-129c9b32-8d6e-4034-9300-a2cd3ed91901.JPG)
 
+### Removing both without log transforming sqft_living ###
+
+![non both results](https://user-images.githubusercontent.com/45251340/186282334-9772694f-d4cf-4705-9005-bdacf98f1942.JPG)
+
+#### Linearity
+
+![non both 1](https://user-images.githubusercontent.com/45251340/186282346-c1d04215-8b88-4695-b058-3a3e5429a146.JPG)
+
+#### Normality
+
+![non both 2](https://user-images.githubusercontent.com/45251340/186282351-a9728a5a-7105-4b6b-9c22-e3bcd3440a03.JPG)
+
+#### Homoscedasticity
+
+![non both 3](https://user-images.githubusercontent.com/45251340/186282364-1f21c79f-4ab2-4e27-8027-cf97e1bcff9a.JPG)
+
 
 ## Final Verdict
 It seems the most advantageous thing to do is to remove the waterfront variable and log transform price. The assumptions are somewhat improved when we remove the yr_built variable, but the R-squared score decreases by .065. However when we remove the waterfront variable, it only decreases by .006. Log transforming sqft_living only worsened our assumption plots, and would also be harder to conceptualize in terms of coefficients. Therefore the final changes we make are log transforming price and removing the waterfront variable. Our final results 
