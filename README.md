@@ -153,26 +153,24 @@ After log transforming sqft_living:
 
 ### Linearity
 
-![assumption1](https://user-images.githubusercontent.com/45251340/185807943-d6e7b7a0-4f9f-46f3-9a59-fb12a85470ef.JPG)
+![assumption1](https://user-images.githubusercontent.com/45251340/186253961-b770969c-93c5-4f6a-a14a-32e0bb358f03.JPG)
 
 
 ### Normality
 
-![assumption2](https://user-images.githubusercontent.com/45251340/185807948-3f9bdf1c-3e02-40be-a45d-3c7bafa7c1a0.JPG)
+![assumption2](https://user-images.githubusercontent.com/45251340/186253990-773793a3-3153-4b6f-9ce3-3a06992033f9.JPG)
 
 
 ### Homoscedasticity
 
-![assumption3](https://user-images.githubusercontent.com/45251340/185807957-3fc4f02c-15b6-40d8-9e2f-49b1dd5a2f22.JPG)
+![assumption3](https://user-images.githubusercontent.com/45251340/186254004-f3fa0de7-c165-422c-87b5-43fa00852b02.JPG)
 
 From our data we can see that:
 * All our independent variable p values are less than 0.05, indicating the relationships between those variables and the target variable price are statistically significant.
 * Our R-squared score has improved slightly by .002
 * Our assumption plots have not drastically changed
 
-### Next, we experiment with dropping the waterfront and yr_built columns.
-
-**Removing waterfront column**
+After this, we also experiment with dropping the waterfront and yr_built columns (not shown here) 
 
 
 
