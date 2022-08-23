@@ -135,9 +135,6 @@ To see if we can improve our model, we'll log transform the price variable and s
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/185806973-4ba2b581-098f-440c-b526-f5af0a868230.JPG)
 
-### Multicollinearity
-
-![heatmap_data](https://user-images.githubusercontent.com/45251340/186245252-b9a118ef-6a87-4dfe-a674-16363c2e4f23.JPG)
 
 After log transforming our price variable we can see that:
 
@@ -156,22 +153,22 @@ After log transforming sqft_living:
 
 ### Linearity
 
-![assumption1](https://user-images.githubusercontent.com/45251340/185807943-d6e7b7a0-4f9f-46f3-9a59-fb12a85470ef.JPG)
+![assumption1](https://user-images.githubusercontent.com/45251340/186252824-02479720-a287-43f2-965d-168580251259.JPG)
 
 
 ### Normality
 
-![assumption2](https://user-images.githubusercontent.com/45251340/185807948-3f9bdf1c-3e02-40be-a45d-3c7bafa7c1a0.JPG)
+![assumption2](https://user-images.githubusercontent.com/45251340/186252844-96ebd0e1-5597-42db-b0d5-c0bf9b4a4e6d.JPG)
 
 
 ### Homoscedasticity
 
-![assumption3](https://user-images.githubusercontent.com/45251340/185807957-3fc4f02c-15b6-40d8-9e2f-49b1dd5a2f22.JPG)
+![assumption3](https://user-images.githubusercontent.com/45251340/186252871-38eb8edb-67c2-4e6c-87e1-0f5254e91bba.JPG)
 
 From our data we can see that:
 * All our independent variable p values are less than 0.05, indicating the relationships between those variables and the target variable price are statistically significant.
 * Our R-squared score has improved slightly by .002
-* Our assumption plots have not drastically changed
+* Our assumption plots have worsened
 
 After this, we also experiment with dropping the waterfront and yr_built columns (not shown here) 
 
