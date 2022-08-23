@@ -225,9 +225,8 @@ From our data we can see that:
 ![both 3](https://user-images.githubusercontent.com/45251340/186257331-129c9b32-8d6e-4034-9300-a2cd3ed91901.JPG)
 
 
-**Our final intercept and coefficients are:** 
-
-![image](https://user-images.githubusercontent.com/45251340/185808127-60af8ebf-e7f0-460a-9b33-7ddcb9b69a94.png)
+## Final Verdict
+It seems the most advantageous thing to do is to remove the waterfront variable and log transform price. The assumptions are somewhat improved when we remove the yr_built variable, but the R-squared score decreases by .065. However when we remove the waterfront variable, it only decreases by .006. Log transforming sqft_living only worsened our assumption plots, and would also be harder to conceptualize in terms of coefficients. Therefore the final changes we make are log transforming price and removing the waterfront variable.
 
 ## Interpreting the results
 
