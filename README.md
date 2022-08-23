@@ -171,8 +171,23 @@ From our data we can see that:
 * Our assumption plots have not drastically changed
 
 ### We also experiment with dropping the waterfront and yr_built columns ###
-**Removing waterfront variable**
 
+**Removing yr_built variable**
+
+![third_model_results](https://user-images.githubusercontent.com/45251340/186254504-56b4ecdc-8fd1-4af4-9641-477bad526c3c.JPG)
+
+### Linearity
+
+![assumption1](https://user-images.githubusercontent.com/45251340/186254922-a1fa6692-234b-42e9-804f-34dec3c55cfe.JPG)
+
+### Normality
+
+![assumption2](https://user-images.githubusercontent.com/45251340/186254939-3db7a7c7-4fe4-4b2b-91ec-0d831166bea7.JPG)
+
+
+### Homoscedasticity
+
+![assumption3](https://user-images.githubusercontent.com/45251340/186254956-ee0c07ec-171a-44c0-8a2d-63604bd825ac.JPG)
 
 
 **Our final intercept and coefficients are:** 
