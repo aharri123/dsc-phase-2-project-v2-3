@@ -172,7 +172,7 @@ From our data we can see that:
 
 ## We also experiment with dropping the waterfront and yr_built columns ###
 
-### - Removing yr_built variable ###
+### Removing yr_built variable ###
 
 ![third_model_results](https://user-images.githubusercontent.com/45251340/186254504-56b4ecdc-8fd1-4af4-9641-477bad526c3c.JPG)
 
@@ -189,7 +189,7 @@ From our data we can see that:
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/186254956-ee0c07ec-171a-44c0-8a2d-63604bd825ac.JPG)
 
-### - Removing yr_built without log transforming sqft_living
+### Removing yr_built without log transforming sqft_living
 
 ![non_yr_built results](https://user-images.githubusercontent.com/45251340/186281042-1c92ddb0-11c5-47ef-af83-c386bf2515c4.JPG)
 
@@ -205,7 +205,7 @@ From our data we can see that:
 
 ![non_yr_built 3](https://user-images.githubusercontent.com/45251340/186281151-2027627d-bb93-4be4-89ea-06e62396a971.JPG)
 
-### - Removing waterfront variable ###
+### Removing waterfront variable ###
 
 ![waterfront results](https://user-images.githubusercontent.com/45251340/186256334-9f9a7d67-9cc1-46c6-a20f-7156dae93684.JPG)
 
@@ -224,7 +224,7 @@ From our data we can see that:
 ![waterfont 3](https://user-images.githubusercontent.com/45251340/186256585-728bb5bc-5b80-4c33-8689-e07b3a101fe6.JPG)
 
 
-### - Removing waterfront variable without log transforming sqft_living ###
+### Removing waterfront variable without log transforming sqft_living ###
 
 ![non_waterfront results](https://user-images.githubusercontent.com/45251340/186281567-e3949d8c-819d-4c12-80fd-a7df92d64edc.JPG)
 
@@ -241,7 +241,7 @@ From our data we can see that:
 ![non_waterfront 3](https://user-images.githubusercontent.com/45251340/186281609-d0722ca6-a5d0-43ce-9c73-d92867d057f8.JPG)
 
 
-### - Removing both ###
+### Removing both ###
 
 ![both results](https://user-images.githubusercontent.com/45251340/186257016-5c0bfc09-7cd3-46d8-968d-baa8c56a2496.JPG)
 
