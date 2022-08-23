@@ -81,11 +81,7 @@ Our data has quite a lot of variables, so let's see if we can eliminate some of 
 * sqft_basement (not in heatmap, but sqft of basement is already included in sqft_living)
 * sqft_living15 (we are not concerned about other neighbor's properties)
 
-Our data now looks like this: 
-
-![house_data](https://user-images.githubusercontent.com/45251340/185805664-a7766cd5-0a84-48fd-bf66-3775be9c00a9.JPG)
-
-**We can see there are some categorical variables, so after coverting to numeric variables, our data finally looks like this:**
+We can also see there are some categorical variables. We are unable to run a linear regression model if our data has categorical data, so we must convert to numerical values. After removing the variables and converting our categorical data to numeric types, our data finally looks like this:
 
 ![house_data](https://user-images.githubusercontent.com/45251340/185805982-ccb74ec1-5b6d-40f3-b740-aa1c0eab4f7d.JPG)
 
