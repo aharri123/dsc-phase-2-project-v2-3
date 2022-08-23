@@ -279,16 +279,15 @@ It seems the most advantageous thing to do is to log transform only price and re
 
 ## Interpreting the results
 
-First off, we can see that our base house price is about $20.46. Then from there, we can look at the coefficients. Because we log transformed our target variable price, our variable coefficients (apart from sqft_living) can be represented as percentage changes of price for each unit increase. The sqft_living coefficient will be interpreted as a percentage change in price for each percentage change in sqft_living. By using math and applying it to each coefficient, we can get the following interpretations:
+First off, we can see that our base house price is about $22.64. Then from there, we can look at the coefficients. Because we log transformed our target variable price, our variable coefficients (apart from sqft_living) can be represented as percentage changes of price for each unit increase. The sqft_living coefficient will be interpreted as a percentage change in price for each percentage change in sqft_living. By using math and applying it to each coefficient, we can get the following interpretations:
 
-* For each additional bedroom added our price will go down by about 3.5%
+* For each additional bedroom added our price will go down by about 2.9%
 * For each additional bathroom addded, our house price will go up by about 9.6%
-* For each 1% increase in sqft_living, the price will increase by 39%
-* For each additional floor added, the price will increase by about 8%
-* If a house DOES have a waterfront view, we can expect the price to increase by about 72.3% as compared to if it does not
-* For each increase in condition value ranking, the house price will increase by about 1.5%
-* For each increase in grade value ranking, the house price will increase by about 26.2%
-* For each year newer the house is, the price will decrease by about .63%
+* For each 1% increase in sqft_living, the price will increase by .02%
+* For each additional floor added, the price will increase by about 8.2%
+* For each increase in condition value ranking , the house price will increase by about 1.8%
+* For each increase in grade value ranking, the house price will increase by about 25.5%
+* For each year newer the house is, the price will decrease by about .60%
 
 ## Conclusion
 Our goal for this project was to use previous King County housing data from 2014-2015 to identify which features would best increase the value of a house in order for it to be sold (Keeping in mind the person selling the house would need to be able to renovate these features). After identifying these features, we will then present our data to the Real Estate agency, so that they may communicate to their customers which features would be most advantageous to renovate.
