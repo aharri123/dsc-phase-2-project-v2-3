@@ -118,7 +118,7 @@ From testing our assumptions we can see:
 
 #### Let's see if we can adjust our model to fix any of the assumptions
 
-## Third Model 
+## Third Model
 To see if we can improve our model, we'll log transform the price variable and see what happens. After log transforming and building our model these are our results and assumptions:
 
 ![third_model_results](https://user-images.githubusercontent.com/45251340/185806899-24711dfd-af4c-40e2-a7a5-3c83780fec7b.JPG)
@@ -153,17 +153,17 @@ After log transforming sqft_living:
 
 ### Linearity
 
-![assumption1](https://user-images.githubusercontent.com/45251340/185807943-d6e7b7a0-4f9f-46f3-9a59-fb12a85470ef.JPG)
+![removing yr_built assumption1](https://user-images.githubusercontent.com/45251340/186255558-abf7291e-11fc-401c-bc84-6ee71162c83f.JPG)
 
 
 ### Normality
 
-![assumption2](https://user-images.githubusercontent.com/45251340/185807948-3f9bdf1c-3e02-40be-a45d-3c7bafa7c1a0.JPG)
+![removing yr_built assumption2](https://user-images.githubusercontent.com/45251340/186255574-1e21d16e-2519-4919-801f-d52991827387.JPG)
 
 
 ### Homoscedasticity
 
-![assumption3](https://user-images.githubusercontent.com/45251340/185807957-3fc4f02c-15b6-40d8-9e2f-49b1dd5a2f22.JPG)
+![removing yr_built assumption3](https://user-images.githubusercontent.com/45251340/186255601-ab7b04fc-d908-4ad7-899f-3d2056c9d8a1.JPG)
 
 From our data we can see that:
 * All our independent variable p values are less than 0.05, indicating the relationships between those variables and the target variable price are statistically significant.
