@@ -189,6 +189,22 @@ From our data we can see that:
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/186254956-ee0c07ec-171a-44c0-8a2d-63604bd825ac.JPG)
 
+### Removing yr_built without log transforming sqft_living
+
+![non_yr_built results](https://user-images.githubusercontent.com/45251340/186281042-1c92ddb0-11c5-47ef-af83-c386bf2515c4.JPG)
+
+#### Linearity ####
+
+![non_yr_built 1](https://user-images.githubusercontent.com/45251340/186281130-4c91d2f4-b02f-439b-9c98-72af3b54dc5a.JPG)
+
+#### Normality ####
+
+![non_yr_built 2](https://user-images.githubusercontent.com/45251340/186281137-1c1afa92-685b-48d0-a23c-9e00603a5aae.JPG)
+
+#### Homoscedasticity ####
+
+![non_yr_built 3](https://user-images.githubusercontent.com/45251340/186281151-2027627d-bb93-4be4-89ea-06e62396a971.JPG)
+
 ### Removing waterfront variable ###
 
 ![waterfront results](https://user-images.githubusercontent.com/45251340/186256334-9f9a7d67-9cc1-46c6-a20f-7156dae93684.JPG)
