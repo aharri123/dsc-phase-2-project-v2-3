@@ -91,7 +91,7 @@ Our data has quite a lot of variables, so let's see if we can eliminate some of 
 
 ![second_model_results](https://user-images.githubusercontent.com/45251340/185806168-c242d1a9-333d-4f31-8b74-b5020bf77cf3.JPG)
 
-**Let's check our assumptions again**
+### Let's check our assumptions again ###
 #### Linearity 
 
 ![assumption1](https://user-images.githubusercontent.com/45251340/185806299-dd537b70-7f5e-44a9-9117-256708c91f33.JPG)
