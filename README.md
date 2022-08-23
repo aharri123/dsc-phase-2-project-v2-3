@@ -32,17 +32,17 @@ After running our model, we get the following summary:
 
 **Our R-squared value is somewhat low at 49%, so let's check some assumptions**
 
-### Linearity
+#### Linearity
 We'll plot the relationship between price and sqft_living to see if it follows a linear pattern
 
 ![assumption1](https://user-images.githubusercontent.com/45251340/185805249-b6c491af-2f34-4229-9095-064f0f7a876b.JPG)
 
-### Normality
+#### Normality
 We'll plot the residuals against a standard normal distribution 
 
 ![assumption2](https://user-images.githubusercontent.com/45251340/185805283-6e947fcf-d804-4a63-b426-ac300026df4a.JPG)
 
-### Homoscedasticity
+#### Homoscedasticity
 
 We'll see if the regression plots resemble a cone shape
 
@@ -92,19 +92,19 @@ Our data has quite a lot of variables, so let's see if we can eliminate some of 
 ![second_model_results](https://user-images.githubusercontent.com/45251340/185806168-c242d1a9-333d-4f31-8b74-b5020bf77cf3.JPG)
 
 **Let's check our assumptions again**
-### Linearity 
+#### Linearity 
 
 ![assumption1](https://user-images.githubusercontent.com/45251340/185806299-dd537b70-7f5e-44a9-9117-256708c91f33.JPG)
 
-### Normality
+#### Normality
 
 ![assumption2](https://user-images.githubusercontent.com/45251340/185806311-cf818dad-2efc-42b8-b450-779553adb131.JPG)
 
-### Homoscedasticity
+#### Homoscedasticity
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/185806322-b9a48b10-f00b-4b5d-8841-2b0d9be08cc8.JPG)
 
-### Let's check for multicollinearity
+#### Let's check for multicollinearity
 
 ![heatmap_data](https://user-images.githubusercontent.com/45251340/185806376-8985fc73-e6a8-4a01-8fff-9207f614848e.JPG)
 
@@ -123,15 +123,15 @@ To see if we can improve our model, we'll log transform the price variable and s
 
 ![third_model_results](https://user-images.githubusercontent.com/45251340/185806899-24711dfd-af4c-40e2-a7a5-3c83780fec7b.JPG)
 
-### Linearity
+#### Linearity
 
 ![assumption1](https://user-images.githubusercontent.com/45251340/185806959-85337a01-2fef-4c61-ba7f-1345b45eb81c.JPG)
 
-### Normality
+#### Normality
 
 ![assumption2](https://user-images.githubusercontent.com/45251340/185806963-b07b27d4-3cfd-4132-aef9-cf06619608d8.JPG)
 
-### Homoscedasticity
+#### Homoscedasticity
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/185806973-4ba2b581-098f-440c-b526-f5af0a868230.JPG)
 
@@ -151,17 +151,17 @@ After log transforming sqft_living:
 
 ![third_model_results](https://user-images.githubusercontent.com/45251340/185807855-547483ca-bab0-40e6-abc4-3fe6b8f444ca.JPG)
 
-### Linearity
+#### Linearity
 
 ![removing yr_built assumption1](https://user-images.githubusercontent.com/45251340/186255558-abf7291e-11fc-401c-bc84-6ee71162c83f.JPG)
 
 
-### Normality
+#### Normality
 
 ![removing yr_built assumption2](https://user-images.githubusercontent.com/45251340/186255574-1e21d16e-2519-4919-801f-d52991827387.JPG)
 
 
-### Homoscedasticity
+#### Homoscedasticity
 
 ![removing yr_built assumption3](https://user-images.githubusercontent.com/45251340/186255601-ab7b04fc-d908-4ad7-899f-3d2056c9d8a1.JPG)
 
@@ -176,16 +176,16 @@ From our data we can see that:
 
 ![third_model_results](https://user-images.githubusercontent.com/45251340/186254504-56b4ecdc-8fd1-4af4-9641-477bad526c3c.JPG)
 
-### Linearity
+#### Linearity
 
 ![assumption1](https://user-images.githubusercontent.com/45251340/186254922-a1fa6692-234b-42e9-804f-34dec3c55cfe.JPG)
 
-### Normality
+#### Normality
 
 ![assumption2](https://user-images.githubusercontent.com/45251340/186254939-3db7a7c7-4fe4-4b2b-91ec-0d831166bea7.JPG)
 
 
-### Homoscedasticity
+#### Homoscedasticity
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/186254956-ee0c07ec-171a-44c0-8a2d-63604bd825ac.JPG)
 
