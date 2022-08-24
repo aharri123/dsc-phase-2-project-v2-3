@@ -282,7 +282,7 @@ It seems the most advantageous thing to do is to log transform only price and re
 
 ## Interpreting the results
 
-First off, we can see that our base house price is about $22.64. Then from there, we can look at the coefficients. Because we log transformed our target variable price, our variable coefficients (apart from sqft_living) can be represented as percentage changes of price for each unit increase. The sqft_living coefficient will be interpreted as a percentage change in price for each percentage change in sqft_living. By using math and applying it to each coefficient, we can get the following interpretations:
+First off, we can see that our base house price is about $22.64. Then from there, we can look at the coefficients. Because we log transformed our target variable price, our variable coefficients (apart from sqft_living) can be represented as percentage changes of price for each unit increase. The sqft_living coefficient will be interpreted as a percentage change in price for each percentage change in sqft_living. By using the formula 100 × (𝑒^𝛽̂1 − 1) where 𝛽̂1 is the coefficient, and applying it to each variable coefficient, we can get the following interpretations:
 
 * For each additional bedroom added our price will go down by about 2.9%
 * For each additional bathroom addded, our house price will go up by about 9.6%
