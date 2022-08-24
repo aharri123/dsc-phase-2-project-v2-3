@@ -5,7 +5,7 @@
 
 For this project, you will use multiple linear regression modeling to analyze house sales in King County.
 
-### Business Problem
+### Business Goal
 
 We're working with a real estate agency that helps customers buy and sell houses. Using Linear Regression to analyze the given dataset, we will help the agency determine which features of a house will increase the value (price) the most. Using that data, we will help the agency advise customers about how renovations made to the house will increase the value of the house, and by how much.
 
@@ -119,7 +119,7 @@ From testing our assumptions we can see:
 #### Let's see if we can adjust our model to fix any of the assumptions
 
 ## Third Model
-To see if we can improve our model, we'll log transform the price variable and see what happens. After log transforming and building our model these are our results and assumptions:
+To see if we can improve our model, we'll log transform the price variable and see what happens. We'll also remove the view variable, since conceptually it doesn't make sense that our price would go down as the view rating increases. After log transforming price, and removing the view variable, here are our results and assumptions:
 
 ![third_model_results](https://user-images.githubusercontent.com/45251340/185806899-24711dfd-af4c-40e2-a7a5-3c83780fec7b.JPG)
 
@@ -134,6 +134,10 @@ To see if we can improve our model, we'll log transform the price variable and s
 #### Homoscedasticity
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/185806973-4ba2b581-098f-440c-b526-f5af0a868230.JPG)
+
+#### Checking for multicollinearity
+
+![heatmap 3rd model](https://user-images.githubusercontent.com/45251340/186541190-7f32fac0-68ee-4b87-8af8-fd2d88d66985.JPG)
 
 
 After log transforming our price variable we can see that:
@@ -275,11 +279,14 @@ From our data we can see that:
 
 
 ## Final Verdict
-It seems the most advantageous thing to do is to log transform only price and remove the waterfront variable. The assumptions are somewhat improved when we remove the yr_built variable, but the R-squared score decreases by .065 when sqft_living is still log transformed, and .058 when not. However when we remove the waterfront variable, it only decreases by .006 (regardless of log transformation of sqft_living). Log transforming sqft_living makes it harder to conceptualize in terms of coefficients, so we will keep it untransformed.  Therefore the final changes we make are log transforming price and removing the waterfront variable.
+It seems the most advantageous thing to do is to log transform only price and remove the waterfront variable. The assumptions are somewhat improved when we remove the yr_built variable, but the R-squared score decreases by .065 when sqft_living is still log transformed, and .058 when not. However when we remove the waterfront variable, it only decreases by .006 (regardless of log transformation of sqft_living). Log transforming sqft_living makes it harder to conceptualize in terms of coefficients, so we will keep it untransformed.  Therefore the final changes we make are log transforming price and removing the waterfront variable. Our final model results are: 
+
+![final verdict results](https://user-images.githubusercontent.com/45251340/186534169-a602cb2b-eb45-41e9-89f6-9030ae2953af.JPG)
+
 
 ## Interpreting the results
 
-First off, we can see that our base house price is about $22.64. Then from there, we can look at the coefficients. Because we log transformed our target variable price, our variable coefficients (apart from sqft_living) can be represented as percentage changes of price for each unit increase. The sqft_living coefficient will be interpreted as a percentage change in price for each percentage change in sqft_living. By using math and applying it to each coefficient, we can get the following interpretations:
+First off, we can see that our base house price is about $22.64. Then from there, we can look at the coefficients. Because we log transformed our target variable price, our variable coefficients (apart from sqft_living) can be represented as percentage changes of price for each unit increase. The sqft_living coefficient will be interpreted as a percentage change in price for each percentage change in sqft_living. By using the formula 100 × (𝑒^𝛽̂1 − 1) where 𝛽̂1 is the coefficient, and applying it to each variable coefficient, we can get the following interpretations:
 
 * For each additional bedroom added our price will go down by about 2.9%
 * For each additional bathroom addded, our house price will go up by about 9.6%
