@@ -275,7 +275,10 @@ From our data we can see that:
 
 
 ## Final Verdict
-It seems the most advantageous thing to do is to log transform only price and remove the waterfront variable. The assumptions are somewhat improved when we remove the yr_built variable, but the R-squared score decreases by .065 when sqft_living is still log transformed, and .058 when not. However when we remove the waterfront variable, it only decreases by .006 (regardless of log transformation of sqft_living). Log transforming sqft_living makes it harder to conceptualize in terms of coefficients, so we will keep it untransformed.  Therefore the final changes we make are log transforming price and removing the waterfront variable.
+It seems the most advantageous thing to do is to log transform only price and remove the waterfront variable. The assumptions are somewhat improved when we remove the yr_built variable, but the R-squared score decreases by .065 when sqft_living is still log transformed, and .058 when not. However when we remove the waterfront variable, it only decreases by .006 (regardless of log transformation of sqft_living). Log transforming sqft_living makes it harder to conceptualize in terms of coefficients, so we will keep it untransformed.  Therefore the final changes we make are log transforming price and removing the waterfront variable. Our final model results are: 
+
+![final verdict results](https://user-images.githubusercontent.com/45251340/186534169-a602cb2b-eb45-41e9-89f6-9030ae2953af.JPG)
+
 
 ## Interpreting the results
 
