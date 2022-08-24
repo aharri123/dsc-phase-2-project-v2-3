@@ -119,7 +119,7 @@ From testing our assumptions we can see:
 #### Let's see if we can adjust our model to fix any of the assumptions
 
 ## Third Model
-To see if we can improve our model, we'll log transform the price variable and see what happens. After log transforming and building our model these are our results and assumptions:
+To see if we can improve our model, we'll log transform the price variable and see what happens. We'll also remove the view variable, since conceptually it doesn't make sense that our price would go down as the view rating increases. After log transforming price, and removing the view variable, here are our results and assumptions:
 
 ![third_model_results](https://user-images.githubusercontent.com/45251340/185806899-24711dfd-af4c-40e2-a7a5-3c83780fec7b.JPG)
 
