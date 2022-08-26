@@ -279,27 +279,26 @@ From our data we can see that:
 
 
 ## Final Verdict
-It seems the most advantageous thing to do is to log transform only price and remove the waterfront variable. The assumptions are somewhat improved when we remove the yr_built variable, but the R-squared score decreases by .065 when sqft_living is still log transformed, and .058 when not. However when we remove the waterfront variable, it only decreases by .006 (regardless of log transformation of sqft_living). Log transforming sqft_living makes it harder to conceptualize in terms of coefficients, so we will keep it untransformed.  Therefore the final changes we make are log transforming price and removing the waterfront variable. Our final model results are: 
+It seems the most advantageous thing to do is to log transform only price. The assumptions are somewhat improved when we remove the yr_built variable, but the R-squared score decreases by .065 when sqft_living is still log transformed, and .058 when not. When we remove the waterfront variable, it still decreases by .006 (regardless of log transformation of sqft_living). Log transforming sqft_living makes it harder to conceptualize in terms of coefficients, so we will keep it untransformed. Therefore the final changes we make are log transforming price.
 
-![final verdict results](https://user-images.githubusercontent.com/45251340/186534169-a602cb2b-eb45-41e9-89f6-9030ae2953af.JPG)
+![final verdict results](https://user-images.githubusercontent.com/45251340/186784777-591cd516-7145-4e9a-acfc-9358d03af7f3.JPG)
 
 
 ## Interpreting the results
 
 First off, we can see that our base house price is about $22.64. Then from there, we can look at the coefficients. Because we log transformed our target variable price, our variable coefficients (apart from sqft_living) can be represented as percentage changes of price for each unit increase. The sqft_living coefficient will be interpreted as a percentage change in price for each percentage change in sqft_living. By using the formula 100 × (𝑒^𝛽̂1 − 1) where 𝛽̂1 is the coefficient, and applying it to each variable coefficient, we can get the following interpretations:
 
-* For each additional bedroom added our price will go down by about 2.9%
+* For each additional bedroom added our price will go down by about 3.5%
 * For each additional bathroom addded, our house price will go up by about 9.6%
-* For each 1% increase in sqft_living, the price will increase by .02%
-* For each additional floor added, the price will increase by about 8.2%
-* For each increase in condition value ranking , the house price will increase by about 1.8%
-* For each increase in grade value ranking, the house price will increase by about 25.5%
-* For each year newer the house is, the price will decrease by about .60%
+* For each 1% increase in sqft_living, the price will increase by 48%
+* For each additional floor added, the price will increase by about 8%
+* For each increase in condition value ranking , the house price will increase by about 1.5%
+* For each increase in grade value ranking, the house price will increase by about 26.2%
+* For each year newer the house is, the price will decrease by about .63%
 
 ## Conclusion
-Our goal for this project was to use previous King County housing data from 2014-2015 to identify which features would best increase the value of a house in order for it to be sold (Keeping in mind the person selling the house would need to be able to renovate these features). After identifying these features, we will then present our data to the Real Estate agency, so that they may communicate to their customers which features would be most advantageous to renovate. 
+Our goal for this project was to use previous King County housing data from 2014-2015 to identify which features would best increase the value of a house in order for it to be sold (keeping in mind the person selling the house would need to be able to renovate these features). After identifying these features, we will then present our data to the Real Estate agency, so that they may communicate to their customers which features would be most advantageous to renovate.
 
-Since the customer selling the house needs to be able to renovate the features chosen, we can rule out some of the features.The yr_built can be eliminated, since one cannot change the year that the house was built. The floor variable can also be eliminated since it would not be worthwhile to add an entire new floor level for the price to only go up by about 8.2%. Without adding or changing anything else, an increase in bedrooms would actually bring down the price by about 2.9%, therefore the bedrooms variable can be eliminated. Finally, there's the issue of the condition variable. Increasing the condition ranking of the house will only increase the price by about 1.5%. Therefore the variables that should be picked are **number of bathrooms**, **living square footage**, and **grade of the house**.
+Since the customer selling the house needs to be able to renovate the features chosen, we can rule out some of the features.The yr_built can be eliminated, since one cannot change the year that the house was built. The floor variable can also be eliminated since it would not be worthwhile to add an entire new floor level for the price to only go up by about 8%. Without adding or changing anything else, an increase in bedrooms would actually bring down the price by about 3.5%, therefore the bedrooms variable can be eliminated. Finally, there's the issue of the condition variable. Increasing the condition ranking of the house will only increase the price by about 1.5%. Therefore the variables that should be picked are **number of bathrooms**, **living square footage**, and **grade of the house**.
 
-Increasing the number of bathrooms would be beneficial, since adding one bathroom brings a price increase of 9.6%.  Increasing the grade rating of a house goes hand in hand with the other two features, since the grade rating is based on construction quality of renovations made to the house. A higher rating is associated with more square footage, as well as higher quality bathroom fixtures. The price percentage increase per each square foot unit may be low, but it will help improve the grade rating. Other improvements to the house to change the grade rating can be made such as increasing the quality of the woodwork and adding more luxurious materials such as marble.
- 
+Increasing the number of bathrooms would be beneficial, since adding one bathroom brings a price increase of 9.6%. Increasing the grade rating of a house goes hand in hand with the other two features, since the grade rating is based on construction quality of renovations made to the house. A higher rating is associated with more square footage, as well as higher quality bathroom fixtures. The price percentage increase per each square foot unit in addition to being an impressive 48%, will also help improve the grade rating. Other improvements to the house to change the grade rating can be made such as increasing the quality of the woodwork and adding more luxurious materials such as marble.
