@@ -30,7 +30,7 @@ After running our model, we get the following summary:
 
 ![initial_model_results](https://user-images.githubusercontent.com/45251340/185804471-7b7b01eb-731e-40e1-8856-4fda0c8df338.JPG)
 
-**Our R-squared value is somewhat low at 49%, so let's check some assumptions**
+**Let's check some assumptions**
 
 #### Linearity
 We'll plot the relationship between price and sqft_living to see if it follows a linear pattern
