@@ -7,7 +7,7 @@ For this project, you will use multiple linear regression modeling to analyze ho
 
 ### Business Goal
 
-We're working with a real estate agency that helps customers buy and sell houses. Using Linear Regression to analyze the given dataset, we will help the agency determine which features of a house will increase the value (price) the most. Using that data, we will help the agency advise customers about how renovations made to the house will increase the value of the house, and by how much.
+We're working with a real estate agency that helps customers buy and sell houses. Using Linear Regression to analyze the given dataset, we will help the agency determine which features of a house will increase the value (price) the most. Using that data, we will help the agency advise customers about how renovations made to these house features will increase the value of the house, and by how much.
 
 ### The Data
 
