@@ -32,17 +32,17 @@ After running our model, we get the following summary:
 
 **Let's check some assumptions**
 
-#### Linearity
+### Linearity
 We'll plot the relationship between price and sqft_living to see if it follows a linear pattern
 
 ![assumption1](https://user-images.githubusercontent.com/45251340/185805249-b6c491af-2f34-4229-9095-064f0f7a876b.JPG)
 
-#### Normality
+### Normality
 We'll plot the residuals against a standard normal distribution 
 
 ![assumption2](https://user-images.githubusercontent.com/45251340/185805283-6e947fcf-d804-4a63-b426-ac300026df4a.JPG)
 
-#### Homoscedasticity
+### Homoscedasticity
 
 We'll see if the regression plots resemble a cone shape
 
