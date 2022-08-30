@@ -7,7 +7,7 @@ For this project, you will use multiple linear regression modeling to analyze ho
 
 ### Business Goal
 
-We're working with a real estate agency that helps customers buy and sell houses. Using Linear Regression to analyze the given dataset, we will help the agency determine which features of a house will increase the value (price) the most. Using that data, we will help the agency advise customers about how renovations made to the house will increase the value of the house, and by how much.
+We're working with a real estate agency that helps customers buy and sell houses. Using Linear Regression to analyze the given dataset, we will help the agency determine which features of a house will increase the value (price) the most. Using that data, we will help the agency advise customers about how renovations made to these house features will increase the value of the house, and by how much.
 
 ### The Data
 
@@ -30,19 +30,19 @@ After running our model, we get the following summary:
 
 ![initial_model_results](https://user-images.githubusercontent.com/45251340/185804471-7b7b01eb-731e-40e1-8856-4fda0c8df338.JPG)
 
-**Our R-squared value is somewhat low at 49%, so let's check some assumptions**
+**Let's check some assumptions**
 
-#### Linearity
+### Linearity
 We'll plot the relationship between price and sqft_living to see if it follows a linear pattern
 
 ![assumption1](https://user-images.githubusercontent.com/45251340/185805249-b6c491af-2f34-4229-9095-064f0f7a876b.JPG)
 
-#### Normality
+### Normality
 We'll plot the residuals against a standard normal distribution 
 
 ![assumption2](https://user-images.githubusercontent.com/45251340/185805283-6e947fcf-d804-4a63-b426-ac300026df4a.JPG)
 
-#### Homoscedasticity
+### Homoscedasticity
 
 We'll see if the regression plots resemble a cone shape
 
@@ -51,8 +51,9 @@ We'll see if the regression plots resemble a cone shape
 
 From testing our assumptions we can see:
 
+* With no other variables, when sqft_living is at 0, the base house price is -$55164.73
 * Our R-squared value is somewhat low at 49%
-* There is only a slight linear relationship between price and sqft_living
+* There is hardly a linear relationship between price and sqft_living
 * The model residuals do not follow a full normal distribution
 * For our regression plots for sqft_living, we see a cone shape which indicates heteroscedasticity
 
@@ -91,20 +92,20 @@ Our data has quite a lot of variables, so let's see if we can eliminate some of 
 
 ![second_model_results](https://user-images.githubusercontent.com/45251340/185806168-c242d1a9-333d-4f31-8b74-b5020bf77cf3.JPG)
 
-### Let's check our assumptions again ###
-#### Linearity 
+#### Let's check our assumptions again ####
+### Linearity 
 
 ![assumption1](https://user-images.githubusercontent.com/45251340/185806299-dd537b70-7f5e-44a9-9117-256708c91f33.JPG)
 
-#### Normality
+### Normality
 
 ![assumption2](https://user-images.githubusercontent.com/45251340/185806311-cf818dad-2efc-42b8-b450-779553adb131.JPG)
 
-#### Homoscedasticity
+### Homoscedasticity
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/185806322-b9a48b10-f00b-4b5d-8841-2b0d9be08cc8.JPG)
 
-#### Let's check for multicollinearity
+### Let's check for multicollinearity
 
 ![heatmap_data](https://user-images.githubusercontent.com/45251340/185806376-8985fc73-e6a8-4a01-8fff-9207f614848e.JPG)
 
@@ -170,8 +171,8 @@ After log transforming sqft_living:
 ![removing yr_built assumption3](https://user-images.githubusercontent.com/45251340/186255601-ab7b04fc-d908-4ad7-899f-3d2056c9d8a1.JPG)
 
 From our data we can see that:
-* All our independent variable p values are less than 0.05, indicating the relationships between those variables and the target variable price are statistically significant.
-* Our R-squared score has improved slightly by .002
+* All our independent variable p values are less than 0.05, indicating the relationships between those variables and the target variable price are statistically significant
+* Our R-squared score has improved slightly by .002 from our previous score
 * Our assumption plots have worsened
 
 ## We also experiment with dropping the waterfront and yr_built columns ###
