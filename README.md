@@ -91,20 +91,20 @@ Our data has quite a lot of variables, so let's see if we can eliminate some of 
 
 ![second_model_results](https://user-images.githubusercontent.com/45251340/185806168-c242d1a9-333d-4f31-8b74-b5020bf77cf3.JPG)
 
-### Let's check our assumptions again ###
-#### Linearity 
+#### Let's check our assumptions again ####
+### Linearity 
 
 ![assumption1](https://user-images.githubusercontent.com/45251340/185806299-dd537b70-7f5e-44a9-9117-256708c91f33.JPG)
 
-#### Normality
+### Normality
 
 ![assumption2](https://user-images.githubusercontent.com/45251340/185806311-cf818dad-2efc-42b8-b450-779553adb131.JPG)
 
-#### Homoscedasticity
+### Homoscedasticity
 
 ![assumption3](https://user-images.githubusercontent.com/45251340/185806322-b9a48b10-f00b-4b5d-8841-2b0d9be08cc8.JPG)
 
-#### Let's check for multicollinearity
+### Let's check for multicollinearity
 
 ![heatmap_data](https://user-images.githubusercontent.com/45251340/185806376-8985fc73-e6a8-4a01-8fff-9207f614848e.JPG)
 
