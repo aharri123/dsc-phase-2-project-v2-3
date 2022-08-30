@@ -51,8 +51,9 @@ We'll see if the regression plots resemble a cone shape
 
 From testing our assumptions we can see:
 
+* With no other variables, when sqft_living is at 0, the base house price is -$55164.73
 * Our R-squared value is somewhat low at 49%
-* There is only a slight linear relationship between price and sqft_living
+* There is hardly a linear relationship between price and sqft_living
 * The model residuals do not follow a full normal distribution
 * For our regression plots for sqft_living, we see a cone shape which indicates heteroscedasticity
 
