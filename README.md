@@ -57,7 +57,7 @@ From testing our assumptions we can see:
 * The model residuals do not follow a full normal distribution
 * For our regression plots for sqft_living, we see a cone shape which indicates heteroscedasticity
 
-Since our R-squared is low and our regression assumptions are not met, we can say that sqft_living is not ideal for soley modeling a relationship with price. We will need to take a look at additional variables and build a better model. To do this requires multilinear regression.
+Since our R-squared is low and our regression assumptions are not met, we can say that sqft_living is not ideal for soley modeling a relationship with price. We will need to take a look at additional variables and build a better model. To do this requires multiple regression.
 
 
 ## Second Model
